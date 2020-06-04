@@ -54,7 +54,7 @@ nav ul li:first-child {
     height: 290px;
     display: block;
     float: left;
-    background-color: #660000;
+    background-color: #6a1111;
 }
 .menu__links {
     margin: 0;
@@ -64,7 +64,7 @@ nav ul li:first-child {
     line-height: 34px;
 }
 .menu__links li a {
-    color: #cd5c1e;
+    color: #cc5c1e;
 }
 .text {
     margin-left: 2px;
