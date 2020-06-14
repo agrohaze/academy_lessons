@@ -79,15 +79,8 @@ h1 {
     width: 118px;
     font-family: Gilroy-Bold;
     font-size: 48px;
-    
 }
 .info__text {
-    position: inherit;
-
     font-family: 'Gilroy-Medium';
-   
     display: block;
-    
-    
-    
 }

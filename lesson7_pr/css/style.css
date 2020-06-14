@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+}
+.col {
+    min-height: 50px;
+    background-color: #ccc;
+    flex-basis: 50%;
+}
+.col__big {
+    flex-basis: 400px;
+}
