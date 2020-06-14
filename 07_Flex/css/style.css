@@ -1,16 +1,16 @@
 @font-face {
-    font-family: 'Miso';
-    font-style: normal;
-    font-weight: bold;
-    src: local('Miso'), url('miso.woff') format('woff');
-    }
+	font-family: 'Miso-bold';
+	src: url('../fonts/miso-bold.eot');
+	src: local('☺'), url('../fonts/miso-bold.woff') format('woff'), url('../fonts/miso-bold.ttf') format('truetype'), url('../fonts/miso-bold.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
 * {
     box-sizing: border-box;
 }
 body {
     margin: 0;
     padding: 0;
-    font-weight: bold;
     font-family: 'Lato', sans-serif;
 }
 .container {
@@ -43,7 +43,7 @@ body {
     min-width: 134px;
 }
 .price {
-    font-family: 'Miso';
+    font-family: 'Miso-bold';
     color: #02995b;
     font-size: 70px;
     padding: 43px 0 23px 0 ;
