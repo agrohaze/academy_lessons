@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background: rgb(176, 124, 247);
+}
+h2 {
+    margin: 0;
+}
+.container {
+    text-align: center;
+}
+.section {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1500px;
+}
+.title {
+    font-size: 90px;
+    line-height: 25px;
+    font-weight: 700;
+    margin: 102px 0 54px 0;
+}
+.sub__title {
+    width: 563px;
+    text-align: center;
+    padding-bottom: 47px;
+}
+.article {
+    display: flex;
+}
+.logo__img {
+    width: 310px;
+}
+.col {
+    position: relative;
+    text-align: left;
+    width: 310px;
+    height: 310px;
+    margin: 0 15px;
+}
+.col:hover {
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
+    transition: all 0.6s;
+}
+.col__1 {
+    background: url(../images/1.png) no-repeat;
+    background-size: auto auto, cover;
+}
+.col__2 {
+    background: url(../images/2.png) no-repeat;
+    background-size: auto auto, cover;
+}
+.col__3 {
+    background: url(../images/3.png) no-repeat;
+    background-size: auto auto, cover;
+}
+.text__date {
+    position: absolute;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 25px;
+    z-index: 1;
+    background:  rgba(38, 38, 38, 0.5);
+    border-radius: 4px;
+    margin: 30px 0 0 30px;
+    padding: 8px;
+}
+.text__title {
+    position: absolute;
+    bottom: 0;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 700;
+    z-index: 1;
+    margin: 0 0 61px 21px;
+}
+span {
+    position: absolute;
+    bottom: 0;
+    margin: 0 0 23px 21px;
+    font-size: 13px;
+}
+.btn {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #fff;
+    background: #f72b3b;
+    margin: 50px 0 120px 0;
+    border:none;
+    padding: 8px 30px 8px 30px;
+}
+.btn:hover {
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+  
