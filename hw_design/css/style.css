@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    min-width: 870px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: #3e3e3e;
+}
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 108px 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.section {
+    display: flex;
+}
+.title {
+    font-weight: 700;
+    font-size: 34px;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    margin: 0;
+}
+.separator img {
+    width: 45px;
+}
+.title__text {
+    margin: 0;
+    padding : 40px 0 62px 0;
+
+}
+.content {
+    text-align: left;
+    margin: 0 15px;
+}
+.content:first-child {
+    margin-left: 0;
+}
+.name {
+    font-size: 18px;
+    margin: 0;
+}
+.artist__name {
+    font-size: 13px;
+    color: #646464;
+    font-weight: 300;
+}
